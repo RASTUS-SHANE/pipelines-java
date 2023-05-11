@@ -26,3 +26,5 @@ steps:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/TEST-*.xml'
     testRunTitle: 'testcase'
+    testPlan: 'testy'
+    testSuite: 'testy/testt'
