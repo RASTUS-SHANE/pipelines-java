@@ -18,4 +18,11 @@ steps:
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    publishJUnitResults: true
     goals: 'package'
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/TEST-*.xml'
+    testRunTitle: 'testcase'
