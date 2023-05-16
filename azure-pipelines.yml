@@ -26,5 +26,12 @@ steps:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/TEST-*.xml'
     testRunTitle: 'testcase'
-    testPlan: 'Test1'
-    testSuite: 'Test1/Suite1'
+  
+- task: VSTest@2
+  inputs:
+    testSelector: 'testPlan'
+    testPlan: '994349'
+    testSuite: '994350'
+    testConfiguration: '112'
+    searchFolder: '$(System.DefaultWorkingDirectory)'
+    testRunTitle: 'testcheckk'
