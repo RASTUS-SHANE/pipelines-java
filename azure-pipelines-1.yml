@@ -27,4 +27,4 @@ steps:
     testSuite: '994350'
     testConfiguration: '112'
     searchFolder: '$(System.DefaultWorkingDirectory)'
-    testRunTitle: 'testtcheck'
+    testRunTitle: 'Testcheckk'
