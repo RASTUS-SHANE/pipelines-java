@@ -30,8 +30,7 @@ steps:
 - task: VSTest@2
   inputs:
     testSelector: 'testPlan'
-    testPlan: '994349'
-    testSuite: '994350'
+    testPlan: '218729'
+    testSuite: '218730'
     testConfiguration: '112'
     searchFolder: '$(System.DefaultWorkingDirectory)'
-    testRunTitle: 'testcheckk'
