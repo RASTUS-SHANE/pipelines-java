@@ -32,5 +32,5 @@ steps:
     testSelector: 'testPlan'
     testPlan: '994349'
     testSuite: '1003086'
-    testConfiguration: 'Windows 10'
+    testConfiguration: '112'
     searchFolder: '$(System.DefaultWorkingDirectory)'
