@@ -30,7 +30,7 @@ steps:
 - task: VSTest@2
   inputs:
     testSelector: 'testPlan'
-    testPlan: '218729'
-    testSuite: '218730'
-    testConfiguration: '112'
+    testPlan: '994349'
+    testSuite: '1003086'
+    testConfiguration: 'Windows 10'
     searchFolder: '$(System.DefaultWorkingDirectory)'
