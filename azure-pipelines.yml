@@ -31,6 +31,6 @@ steps:
   inputs:
     testSelector: 'testPlan'
     testPlan: '994349'
-    testSuite: '1003086'
+    testSuite: '994350'
     testConfiguration: '112'
     searchFolder: '$(System.DefaultWorkingDirectory)'
